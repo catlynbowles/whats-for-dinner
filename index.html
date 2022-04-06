@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset='utf-8'>
@@ -9,31 +9,34 @@
     <section class='header-container'>
         <h1 class='header-text'>What's For Dinner?</h1>
           <div class='align-right'>
-            <button class='recipe-button'>Add A Recipe!</button>
+            <button class='recipe-button'>ADD A RECIPE!</button>
           </div>
     </section>
   <section class='white-boxes'>
     <section class='box-one'>
-      <!-- <div class='box'> -->
         <div class ='box-one-content'>
             <form id='form'>
               <p id='form-prompt'>
                 <h3 class='box-title'>What are you looking for?</h3>
               <input type="radio" name='food-option' value="side" id='side'>
                 <label for='side'>Side</label><br>
-              <input type='radio' name='food-option' value="main-dish" id='main'>
+              <input type='radio' name='food-option' value="maindish" id='main'>
                 <label for='main'>Main Dish</label><br>
               <input type='radio' name='food-option' value="dessert" id='dessert'>
                 <label for='dessert'>Dessert</label><br>
               <input type='radio' name='food-option' value="entire-meal" id='meal'>
                 <label for='meal'>Entire Meal</label><br>
                 <br>
-                <button onclick='getRadioValue()' id='btn1' class='cook-button'>Let's Cook!</button>
+              <div class='cook-submit'>
+                <button type='submit' class='cook-button'>LET'S COOK!</button>
+              </div>
               </p>
             </form>
         </div>
     </section>
     <section class='box-two'>
+      <h3 class='recipe-text hidden'>You should make:</h3>
+      <p>
       <div class='box'>
         <div class='cookpot-image hidden'>
           <img src="assets/cookpot.svg"
@@ -41,6 +44,7 @@
           width="150px">
         </div>
       </div>
+    </p>
     </section>
   </section>
     <section class="recipe-box hidden"
