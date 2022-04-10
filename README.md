@@ -4,7 +4,7 @@
 
 This solo project was completed as a part of the Turing Front End Development program. The goal of the project was to achieve various aspects of functionality within a site answering the question: **What's for dinner?**
 
-This project can be found [here](https://github.com/catlynbowles/whats-for-dinner)
+This project can be found [here](https://catlynbowles.github.io/whats-for-dinner/)
 
 ## Functional Goals:
 
